@@ -1,6 +1,7 @@
 const React = require('react')
 const Def = require('./default')
 
+
 function home () {
     return (
         <def>
@@ -10,5 +11,8 @@ function home () {
         </def>
     )
 }
+<a href="/places">
+  <button className="btn-primary">Places Page</button>
+</a>
 
 module.exports = home
